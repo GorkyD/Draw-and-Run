@@ -9,17 +9,17 @@ D:\Unity\2020.3.7f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker7
 -projectPath
 D:/Git/Draw-and-Run
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker7.log
 -srvPort
-62827
+59714
 Successfully changed project path to: D:/Git/Draw-and-Run
 D:/Git/Draw-and-Run
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,67 +35,46 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001239 seconds.
+Registered in 0.001292 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.473 seconds
+- Completed reload, in  2.102 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000704 seconds.
+Registered in 0.001285 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.380 seconds
+- Completed reload, in  4.258 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 81.9 MB.
 System memory in use after: 81.9 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1838.
-Total: 2.607836 ms (FindLiveObjects: 0.206129 ms CreateObjectMapping: 0.079116 ms MarkObjects: 2.196860 ms  DeleteObjects: 0.123164 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1839.
+Total: 4.040051 ms (FindLiveObjects: 0.294654 ms CreateObjectMapping: 0.097505 ms MarkObjects: 3.441335 ms  DeleteObjects: 0.203136 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Scene_0.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene_0.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ad81cd7906f5875b1ab864f2c1925a') in 0.033996 seconds
-  Import took 0.037817 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000821 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.043 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1355 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.1 MB.
-System memory in use after: 79.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1841.
-Total: 2.133140 ms (FindLiveObjects: 0.222808 ms CreateObjectMapping: 0.087241 ms MarkObjects: 1.732855 ms  DeleteObjects: 0.088097 ms)
+  path: Assets/Scripts/Draw.cs
+  artifactKey: Guid(a53714376c715114abe5a59faf044e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Draw.cs using Guid(a53714376c715114abe5a59faf044e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66b8629e18ba6dc641cbb5930fc51f7') in 0.184702 seconds
+  Import took 0.249171 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
